@@ -136,6 +136,7 @@ section + section > article{
         justify-content: space-between;
         font-size: 2rem;
         margin-top: 5%;
+        margin-bottom: 5%;
 }
 
 article > ul > p{
@@ -156,4 +157,59 @@ article > ul > input{
 
 article >img{
     margin-left: 5%;
+}
+
+
+section:nth-child(4){
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+section:nth-child(4) > article {
+    float: left;
+    width: 50%;
+}
+
+section:nth-child(4) > img#image{
+    float: left;
+    width: 50%;
+}
+
+section:nth-child(5){
+    background-color: rgb(221, 219, 219);
+    height: 100vh;
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+
+section:nth-child(5)>ul>li{
+    margin-top: 5%;
+    float: left;
+    list-style: none;
+    width: 15%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+section:nth-child(5)>ul>li>img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10%;
+}
+
+section:nth-child(5)>p{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+section:nth-child(5)>ul>li>p{
+    font-size: 1.3rem;
+    margin-top: 4%;
 }
